@@ -1,0 +1,224 @@
+/* MASTER STYLE*/
+/*
+body{
+	margin: 0px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr;/*creating template-columns 1fr stands for fractionaal unit 100% from end to end*/
+
+}
+/*NAV  WRAPPER STYLE*/
+/*.nav-wrapper{
+	display: flex;
+	justify-content: space-between;/* it justify the content by spacing it out using all of the open space in between*/
+	/*padding: 38px;
+}
+.left-side{
+	display: flex;/*align the content*/
+
+}
+/*.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: 0.95em;/*90 %of default*/
+    /*text-transform: uppercase;
+}
+/*.nav-link-wrapper{
+	height: 22px;
+	border-bottom: 1px solid transparent;/*create a border in the bottom of the text*/
+	/*transition: border-bottom 0.5s;
+}
+/*.nav-link-wrapper a{
+	 color: #8a8a8a;/*color reference kinda a grey one*/
+	 /*text-decoration: none;
+	 transition: color 0.5s;/*it waits 0.5 secondes until it changes it*/
+
+}
+/*.nav-link-wrapper:hover{
+	border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover{
+	color: black;
+}
+/*PORTFOLIO STYLE*/
+/*.portfolio-items-wrapper{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+/*.portfolio-item-wrapper {
+  position: relative;
+}
+.portfolio-img-background{
+	height: 350px;
+	width: 100%;
+	background-size: cover; /*  the images doesn t have the same size ,croping the img to set nicely*/
+	/*background-position: center;
+	background-repeat: no-repeat;
+}
+.img-text-wrapper{
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/*.logo-wrapper img{
+	width: 40%;
+	margin-bottom: 20px;
+}
+.img-text-wrapper .subtitle{
+	transition: 1s;
+	font-weight: bold;
+	color: transparent;
+}
+/*.img-text-wrapper:hover .subtitle{
+	font-weight: bold;
+	color: blue;
+}
+/* we will use javascript to hover this img darken*/
+/*.img-darken:{
+	transition: 1s;
+	filter: brightness(10%);
+}*/
+
+
+
+/* CODE */
+
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+  color: black !important;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  color: black;
+}
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  position: relative;
+}
+
+.portfolio-img-background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
+}
+
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+  color: lightseagreen;
+  font-weight: 600;
+}
+
+.logo-wrapper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
+
